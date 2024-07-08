@@ -1,0 +1,144 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 40px;
+}
+body{
+
+    background-color: #000000;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 13px ), repeating-linear-gradient( #7e63e655, #7e63e6 );
+    color: white;
+} */
+
+/* Navbar Styles */
+/* .navbar {
+    width: 100%;
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #04AA6D;
+}
+
+.box
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0px 20px;
+    width: 60vw;
+}
+
+.btn{
+    border-radius: 10px;
+    width: 20vw;
+    background-color: #04AA6D; 
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-family: "Playwrite AU NSW", cursive;
+    font-size: 16px;
+    padding: 15px 32px;
+    transition-duration: 250ms;
+    box-shadow: 5px 5px 5px rgb(85, 85, 85);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #006842;
+}
+.fa-solid{
+    width: 200px;
+    height: auto;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=swap');
+
+/* INDEX.HTML */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 40px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    opacity: 1;
+    background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #000000 13px), repeating-linear-gradient(#7e63e655, #7e63e6);
+    color: white;
+}
+
+/* Navbar Styles */
+.box {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0px 20px;
+    width: 60vw;
+}
+
+.btn {
+    border-radius: 10px;
+    width: 20vw;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-family: "Playwrite AU NSW", cursive;
+    font-size: 16px;
+    padding: 15px 32px;
+    transition-duration: 250ms;
+    box-shadow: 5px 5px 5px rgb(85, 85, 85);
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #006842;
+}
+
+.fa-solid {
+    width: 200px;
+    height: auto;
+}

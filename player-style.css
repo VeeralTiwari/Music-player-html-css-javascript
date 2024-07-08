@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+body{
+    display: flex;
+    background-color: #000000;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 13px ), repeating-linear-gradient( #7e63e655, #7e63e6 );
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.fa-solid {
+    color: #ff007b;
+}
+
+.player{
+    background-image: linear-gradient(to top left, rgb(99, 219, 221), white);
+    /* background-color: whitesmoke; */
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: 1px outset rgb(51, 51, 51);
+    margin: 0px 10px;
+}
+.player-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls{
+    font-size: 30px;
+    color: rgb(46, 46, 46);
+    text-align: center;
+}
+.player-img{
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgb(85, 85, 85);
+    margin: 20px auto;
+    width: 274px;
+    height: 266px;
+    overflow: hidden;
+}
+.slider{
+    display: flex;
+    align-items: center;
+}
+#progress{
+    appearance: ;
+    -webkit-appearance : none;
+    height: 6px;
+    background:#989da5 ;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 30px 10px;
+}
+#progress::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    height: 36px;
+    width: 16px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+  }
+  
+#progress::-moz-range-thumb {
+        content:'\01F3B2';
+        width:15px;
+        height:15px;
+}
+.time
+{
+    width: 60px;
+    font-size: 15px;
+}
+
+.player-controls{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0px;
+}
+.btn
+{
+    margin: 0px 10px;
+    border-radius: 10px;
+    background-color: #1d54a1;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 30px;
+    transition-duration: 250ms;
+    box-shadow: 2px 2px 2px rgb(85, 85, 85);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #133566;
+}
+
+/* Player List Styles */
+.song-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.song-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.song-title {
+    font-size: 18px;
+    color: #fff;
+}
+
+.play-btn {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.play-btn:hover {
+    background-color: #006842;
+}
