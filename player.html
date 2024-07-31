@@ -7,36 +7,41 @@
     <link rel="stylesheet" href="player-style.css">
 </head>
 <body>
+    <div class="border-player"></div>
     <div class="player">
         <div class="player-header">
-            <button><i class="fa-solid fa-bars" style="color: #989da5;"></i></button>
+            <i class="fa-solid fa-music" style="color: #989da5;"></i>
             <i class="fa-regular fa-heart"></i>
         </div>
         <div class="player-img box">
-            <div class="img" >
+            <div class="img">
                 <img id="img" src="images/music-player-7792956_1280.jpg" width="450px" height="auto">
             </div>
         </div>
-        <!-- <audio controls>
-            <source src="MP3 files/Mitti-Di-Khushboo_320(PaglaSongs).mp3" type="audio/mpeg">
-        </audio> -->
-        <div class="controls ">
+        <div class="controls">
             <p class="title">Track title</p>
+            <p class="artist">Artist name</p>
             <div class="slider">
                 <input type="range" id="progress" value="0">
                 <p class="time">00:00</p>
             </div>
-
             <div class="player-controls">
                 <i class="fa-solid fa-backward btn" id="prev"></i>
                 <i class="fa-solid fa-play btn" id="play"></i>
                 <i class="fa-solid fa-forward btn" id="next"></i>
             </div>
         </div>
-        
+        <div class="player-footer">
+            <i class=" loopIcon fa-solid fa-bars" style="opacity: 0;"></i>
+            <i class="fa-solid fa-angle-up"></i>
+            <div class="music-list" >
+                <div class="list header"><b style="font-weight: 500;">Music List</b><i class="fa-solid fa-angle-down"></i></div>
+            </div>
+        </div>
     </div>
-    
-    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/ca7b44e1b6.js" crossorigin="anonymous"></script>
+    <script src="music-list.js"></script>
+    <script src="script.js">
+    </script>
 </body>
 </html>
