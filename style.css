@@ -13,7 +13,7 @@ body{
 
     background-color: #000000;
     opacity: 1;
-    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 13px ), repeating-linear-gradient( #7e63e655, #7e63e6 );
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 75px ), repeating-linear-gradient( #7e63e655, #7e63e6 );
     color: white;
 } */
 
